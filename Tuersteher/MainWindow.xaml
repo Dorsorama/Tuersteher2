@@ -9,6 +9,6 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <Label x:Name="label" Content="Label" HorizontalAlignment="Left" Margin="206,172,0,0" VerticalAlignment="Top"/>
-
+        <Button></Button>
     </Grid>
 </Controls:MetroWindow>
