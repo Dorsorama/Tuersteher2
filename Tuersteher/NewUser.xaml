@@ -26,11 +26,11 @@
             </DockPanel>
             <DockPanel Margin="15" LastChildFill="False">
                 <Label>Pin:</Label>
-                <PasswordBox Name="pwPin1" MaxLength="4" Width="68" Margin="35,0,0,0"></PasswordBox>
+                <PasswordBox Name="pwPin1" MaxLength="4" Width="68" Margin="35,0,0,0" PasswordChanged="pwPin1_PasswordChanged"></PasswordBox>
                 <Label Margin="5,0,0,0">=></Label>
-                <PasswordBox DockPanel.Dock="Right" Name="pwPin2"  MaxLength="4" Width="68" Margin="10,0,0,0"></PasswordBox>
+                <PasswordBox DockPanel.Dock="Right" Name="pwPin2"  MaxLength="4" Width="68" Margin="10,0,0,0" PasswordChanged="pwPin1_PasswordChanged"></PasswordBox>
             </DockPanel>
-            <Button Style="{StaticResource AccentedSquareButtonStyle}" Margin="15,15,15,0" Name="btnCreate" Click="btnCreate_Click">Anlegen</Button>
+            <Button IsEnabled="False" Style="{StaticResource AccentedSquareButtonStyle}" Margin="15,15,15,0" Name="btnCreate" Click="btnCreate_Click">Anlegen</Button>
             <Button Margin="0,15,0,0" Name="btnCan" FontSize="10" Width="65" Style="{StaticResource SquareButtonStyle}" Click="btnCan_Click">Abbrechen</Button>
         </StackPanel>
     </Grid>

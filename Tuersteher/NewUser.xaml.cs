@@ -42,5 +42,17 @@ namespace Tuersteher
 		{
 			tbName.Focus();
 		}
+
+		private void pwPin1_PasswordChanged(object sender, RoutedEventArgs e)
+		{
+			if (pwPin1.Password==pwPin2.Password&&tbName.Text!="")
+			{
+				btnCreate.IsEnabled = true;
+			}
+			else
+			{
+				btnCreate.IsEnabled = false;
+			}
+		}
 	}
 }
