@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Tuersteher"
         mc:Ignorable="d"
         xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
-        Title="MainWindow" Height="300" Width="300" ShowTitleBar="False" ShowMaxRestoreButton="False" ShowMinButton="False" ResizeMode="NoResize" KeyUp="MetroWindow_KeyUp" Loaded="MetroWindow_Loaded">
+        Title="MainWindow" Height="300" Width="300" ShowTitleBar="False" ShowMaxRestoreButton="False" ShowMinButton="False" ResizeMode="NoResize" KeyUp="MetroWindow_KeyUp" Loaded="MetroWindow_Loaded" WindowStartupLocation="CenterScreen">
     <Grid>
         <Controls:TransitioningContentControl Name="transControl" Transition="RightReplace"/>
             <!--<Label x:Name="label" Content="Label" HorizontalAlignment="Left" Margin="206,172,0,0" VerticalAlignment="Top"/-->
